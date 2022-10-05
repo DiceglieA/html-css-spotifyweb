@@ -52,6 +52,8 @@ a {
 /* style product */
 .product {
     flex-grow: 1;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
 }
 
 .upgrade {
@@ -83,7 +85,17 @@ a {
 }
 
 /* style container */
+.container {
+    padding: 1rem;
+}
 
+.multi-card {
+    gap: 1rem;
+}
+
+.multi-card img {
+    width: 100%;
+}
 
 
 /* style footer */
