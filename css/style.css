@@ -124,13 +124,16 @@ a {
 /* style footer */
 
 footer {
-    height: 4rem;
+    height: 5.5rem;
     background-color:#2A282A;
 }   
 
 .player {
     align-items: center;
+    justify-content: space-between;
 }
+
+/* style left */
 
 .left-part {
     align-items: center;
@@ -138,7 +141,7 @@ footer {
 
 .album-cover {
     width: 5rem;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 .album-cover img {
@@ -146,7 +149,7 @@ footer {
 }
 
 .artist {
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
 
 .song-icons {
@@ -156,6 +159,29 @@ footer {
 .song-icon {
     padding: .3rem;
 }
+
+/* style central */
+
+.central-part {
+    width: 40%;
+    
+    
+}
+
+.player-top {
+    
+    
+    
+}
+
+.player-top i {
+   
+   
+    
+}
+
+/* style right */
+
 
 /* media query */
 
