@@ -22,6 +22,10 @@ body {
     display: flex;
 }
 
+.grey {
+    color: grey;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -29,17 +33,23 @@ a {
 /* style sidebar */
 
 .sidebar {
-    width: 15%;
+    width: 9rem;
     min-width: 9rem;
     height: calc(100vh - 4rem);
     background-color: black;
     flex-direction: column;
     justify-content: space-between;
     padding: 0.8rem 0.5rem;
+    z-index: 10;
 }
 
-.logo {
-    width: 60%;
+.selection img {
+    width: 15%;
+}
+
+
+.sideup .logo {
+    width: 70%;
 }
 .logo-small {
     display: none;
@@ -59,11 +69,12 @@ a {
 
 .upgrade {
     background-color: rgba(0, 0, 0, 0.4);
-    height: 8%;
+    height: 4rem;
     width: 100%;
-    position: sticky;
+    position: fixed;
     z-index: 5;
     top: 0;
+    right: 0;
     flex-direction: row-reverse;
     align-items: center;
 }
@@ -72,7 +83,7 @@ a {
     border-radius: 20rem;
     border: 1px solid white;
     padding: .3rem 2.5rem;
-    margin-right: .5rem;
+    margin-right: 1.1rem;
 }
 
 /* style navbar */
@@ -80,10 +91,11 @@ a {
 .navbar {
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 5rem;
 }
 
 .navbar li {
-    padding: 0.3rem 0.5rem;
+    padding: 0.1rem 0.5rem;
 }
 
 /* style container */
@@ -104,6 +116,10 @@ a {
     width: calc(100% / 6);
 }
 
+.autors {
+    clip-path: circle();
+}
+
 
 /* style footer */
 
@@ -111,3 +127,30 @@ footer {
     height: 4rem;
     background-color: grey;
 }
+
+
+@media (max-width: 500px) {
+    .none {
+        display: none;
+    }
+
+    .sidebar {
+        width: 2rem;
+        min-width: auto;
+    }
+
+    
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: calc(100% / 4);
+    }
+}
+
+@media (max-width: 720px) {
+    .card {
+        width: calc(100% / 2);
+    }
+}
+
