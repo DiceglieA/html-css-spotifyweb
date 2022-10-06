@@ -125,9 +125,39 @@ a {
 
 footer {
     height: 4rem;
-    background-color: grey;
+    background-color:#2A282A;
+}   
+
+.player {
+    align-items: center;
 }
 
+.left-part {
+    align-items: center;
+}
+
+.album-cover {
+    width: 5rem;
+    padding: 1rem;
+}
+
+.album-cover img {
+    width: 100%;
+}
+
+.artist {
+    padding: 0.5rem;
+}
+
+.song-icons {
+    padding: 1rem;
+}
+
+.song-icon {
+    padding: .3rem;
+}
+
+/* media query */
 
 @media (max-width: 500px) {
     .none {
