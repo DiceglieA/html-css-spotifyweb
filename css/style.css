@@ -39,7 +39,7 @@ a {
     padding: 0.8rem 0.5rem;
     z-index: 10;
     color: grey;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     overflow: hidden;
 }
 
@@ -52,26 +52,64 @@ a {
 }
 
 .selection img {
-    width: 15%;
+    width: 12%;
     
 }
+
+.selection {
+    margin: 0.5rem;
+}
+
+.playlist {
+    margin: 0.5rem;
+}
+
 
 .title-play {
     color: white;
 }
 
 .sideup .logo {
-    width: 70%;
+    width: 65%;
     color: white;
+    margin: 0.5rem;
 }
 .logo-small {
     display: none;
 }
 
+.title-play {
+   font-size: 0.8rem;
+   margin-bottom: 0.5rem;
+}
 
+.plus {
+    background-color: grey;
+    font-size: 0.8rem;
+    color: black;
+    padding: 2px 6px;
+    margin-right: 0.2rem;
+}
 
-.user {
+.create {
+    margin-bottom: 0.5rem;
+}
 
+.sidedown {
+    margin: 0 0.5rem;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+}
+
+.user i {
+    clip-path: circle();
+    background-color: #BBB9BD;
+}
+
+.installer {
+    margin: 0.5rem 0;
 }
 
 .user span {
@@ -158,6 +196,16 @@ a {
 
 .autors {
     clip-path: circle();
+}
+
+.title{
+    font-weight: bolder;
+}
+
+
+.descript {
+    font-size: 0.5rem;
+    color: grey;
 }
 
 
