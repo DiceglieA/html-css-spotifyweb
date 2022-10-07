@@ -39,6 +39,7 @@ a {
     padding: 0.8rem 0.5rem;
     z-index: 10;
     color: grey;
+    font-size: 0.6rem;
 }
 
 .sidebar a {
@@ -297,35 +298,6 @@ footer {
 }
 
 
-
-
-/* media query */
-
-@media (max-width: 550px) {
-    .none {
-        display: none;
-    }
-
-    .sidebar {
-        width: 2rem;
-        min-width: auto;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .logo-small {
-        display: block;
-    }
-
-    .selection img {
-        width: 100%;
-    }
-
-    
-}
-
 /* HOVER */
 
 .sidebar a:hover {
@@ -353,6 +325,32 @@ footer {
     left: 35%;
 }
 
+/* media query */
+
+@media (max-width: 550px) {
+    .none {
+        display: none;
+    }
+
+    .sidebar {
+        width: 2rem;
+        min-width: auto;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+    }
+
+    .selection img {
+        width: 100%;
+    }
+ 
+}
+
 @media (max-width: 1000px) {
     .card {
         width: calc(100% / 4);
@@ -363,5 +361,10 @@ footer {
     .card {
         width: calc(100% / 2);
     }
+    .song-icons {
+        flex-direction: column;
+    }
+
+
 }
 
